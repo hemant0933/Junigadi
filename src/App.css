@@ -1,0 +1,26 @@
+#root {
+  font-family: "Quicksand", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: #ffff;
+  overflow-x: hidden; /* New styles to hide the scrollbar */
+}
+
+/* For Webkit browsers like Chrome and Safari */
+body::-webkit-scrollbar {
+  display: none;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
